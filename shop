@@ -1,0 +1,7 @@
+Create a “Shops” class
+This shops class should have 1 property (variable) and 1 function
+The property will be called shops  and it should be an empty array
+The function should print out the list(array) of shops 
+import your garage file
+instantiate a new Garage object and assign it to $newGarage. Add the $newGarage object to a new Shops object called $shopMagazine  
+Call the function that prints out the list of shops in step 4
