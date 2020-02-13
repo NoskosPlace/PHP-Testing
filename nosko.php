@@ -1,0 +1,5 @@
+<?php
+$arrayA[];
+
+$arrayB = [];
+?>
