@@ -12,14 +12,14 @@
 </style>
 <body>
 <table>
-<tr>
-<td>Name</td>
-<td><?php echo $_POST['name'] == "" ? 'not_provided' : $_POST['name']; ?></td>
-</tr>
-<tr>
-<td>Email</td>
-<td><?php echo $_POST["email"] == "" ? 'not_provided' : $_POST["email"]; ?></td>
-</tr>
+    <tr>
+        <td>Name</td>
+        <td><?php echo $_POST['name'] == "" ? 'not_provided' : $_POST['name']; ?></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><?php echo $_POST["email"] == "" ? 'not_provided' : $_POST["email"]; ?></td>
+    </tr>
 </table>
 </body>
 </html>
