@@ -54,7 +54,7 @@ class Calculator {
 // //$newCalculator->multiply(2,321);
 // $newCalculator->checkString('apple')
 
-$tern = (true) ? "apple" : "banana";
+$tern = (true) ?  : "banana";
 print_r($tern);
 // echo "\n";
 // $newCalculator->subtract(666,420);

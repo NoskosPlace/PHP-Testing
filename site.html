@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form Submissions</title>
+    </head>
+    <body>
+        <form action="http://localhost:8082/submission.php" method="GET">
+        <div>
+            <label for="fruit">What is your favorite fruit?</label>
+            <input name="fruit" id="fruit" value="">
+        </div>
+        <div>
+            <label for="asr">Who is your favorite ASR?</label>
+            <input name="asr" id="asr" value="">
+        </div>
+        <div>
+            <button>Submit via GET</button>
+        </div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <form action="http://localhost:8082/submission.php" method="POST">
+        <div>
+            <label for="show">What is your favorite show?</label>
+            <input name="show" id="show" value="">
+        </div>
+        <div>
+            <label for="game">What is your favorite game?</label>
+            <input name="game" id="game" value="">
+        </div>
+        <div>
+            <button>Submit via POST</button>
+        </div>
+        </form>
+    </body>
+</html>
