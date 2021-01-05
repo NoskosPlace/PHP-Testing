@@ -1,0 +1,20 @@
+<?php
+ class DatabaseConnection{
+ var   $servername = "127.0.0.8";
+ var   $username = "jeremy";
+ var   $password = "password";
+ var   $dbname = "php_examples";
+ var   $myDatabase;
+function __construct(){
+	$this->myDatabase = new mysqli($this->servername, $this->username, $this->password, $this->dbname);
+	if ($this->myDatabase->connect_error) {
+    $this->myDatabase->close();
+    die("Connection failed: " . $myDatabase->connect_error);
+}
+ 
+}
+function prepare(){
+	echo "poop";
+}
+}
+?>
